@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>GHOSTFY</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="../Ghostfy/assets/img/logo_ghost_icon.png" type="image/png">
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <script src="./assets/scripts/scripts.js" async></script>
+    <link rel="shortcut icon" href="../assets/img/logo_ghost.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  </head>
+  <body onload="technology()"> 
+    <header>
+      <nav class="nav-bar">
+        <div class="logo">
+            <img src="./assets/img/logo_ghost.png" alt="Ghostfy logo" class="logo_ghost_head"/>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#about" rel="noreferrer"> Sobre </a></li>
+                <li class="nav-item"><a href="#services" rel="noreferrer"> Serviços </a></li>
+                <li class="nav-item"><a href="#partners" rel="noreferrer"> Parceiros </a></li>
+                <li class="nav-item"><a href="#members" rel="noreferrer"> Equipe </a></li>
+                <li class="nav-item"><a href="#tellus" rel="noreferrer"> Contato </a></li>
+            </ul>
+        </div>
+        <div class="container_bandeira">
+            <a href="english.html"><img src="./assets/img/icon_brazil.png" alt="PT-BR" class="bandeira_brazil"/></a>
+        </div>
+
+        <div class="mobile-menu-icon" onclick="menu()">
+            <button >
+              <svg class="icon_menu_open" viewBox="0 0 20 20">
+              <path fill="none" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+                c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+                s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+                c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path>
+              </svg>
+            </button>
+        </div>
+      </nav>
+
+      <div class="mobile-menu">
+        <div class="mobile-menu-icon" id="fechar" onclick="menu()">
+        <button> <svg class="icon_menu" viewBox="0 0 20 20">
+          <path fill="none" d="M18.271,9.212H3.615l4.184-4.184c0.306-0.306,0.306-0.801,0-1.107c-0.306-0.306-0.801-0.306-1.107,0
+          L1.21,9.403C1.194,9.417,1.174,9.421,1.158,9.437c-0.181,0.181-0.242,0.425-0.209,0.66c0.005,0.038,0.012,0.071,0.022,0.109
+          c0.028,0.098,0.075,0.188,0.142,0.271c0.021,0.026,0.021,0.061,0.045,0.085c0.015,0.016,0.034,0.02,0.05,0.033l5.484,5.483
+          c0.306,0.307,0.801,0.307,1.107,0c0.306-0.305,0.306-0.801,0-1.105l-4.184-4.185h14.656c0.436,0,0.788-0.353,0.788-0.788
+          S18.707,9.212,18.271,9.212z"></path>
+        </svg></button>
+        </div>
+        <ul>
+            <li class="nav-item"><a href="#about" rel="noreferrer"> Sobre </a></li>
+                <li class="nav-item"><a href="#services" rel="noreferrer"> Serviços </a></li>
+                <li class="nav-item"><a href="#partners" rel="noreferrer"> Parceiros </a></li>
+                <li class="nav-item"><a href="#members" rel="noreferrer"> Equipe </a></li>
+                <li class="nav-item"><a href="#tellus" rel="noreferrer"> Contato </a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="section_top">
+        <div class="images_first">
+          <img src="./assets/img/gosma_image.png" class="gosma_enfeite" />
+        </div>
+
+        <div class="content_top">
+          <h1 class="title_ghost_top">Ghostfy</h1>
+          <h2 class="subtitle_ghost_top">
+            A tecnologia mais protegida do mercado
+          </h2>
+          <button class="button_contact_top">Entre em contato</button>
+        </div>
+
+        <div class="images_second">
+          <div class="circulo_enfeite">
+            <img src="./assets/img/security_image.png" />
+          </div>
+        </div>
+      </section>
+      <div class="container_clients">
+        <div class="clients_top">
+        <img src="./assets/img/audi_logo.png" />
+        <img src="./assets/img/nike_logo.png" />
+        <img src="./assets/img/outback_logo.png" />
+        <img src="./assets/img/corinthians_logo.png" />
+        <img src="./assets/img/lv_logo.png" />
+        <img src="./assets/img/instagram_logo.png" />
+        </div>
+      </div>
+
+      <section class="section_about" id="about">
+        <div class="content_about">
+          <h1>Sobre nós</h1>
+          <h2>ALAVANQUE SEU NEGÓCIO COM A GHOSTFY.</h2>
+          <p>
+            Nosso objetivo é criar soluções sustentáveis e inovadoras 
+            que irão liderar a revolução tecnológica, oferecendo 
+            produtos e serviços de alta qualidade, conectando pessoas 
+            e empresas e criando um mundo mais eficiente e colaborativo.
+            Promovendo o crescimento do seu negócio, baseado na 
+            segurança digital do usuário. 
+          </p>
+          <button class="button_about">Saiba mais</button>
+        </div>
+
+        <div class="image_about">
+          <img src="./assets/img/team_image.png" />
+        </div>
+      </section>
+
+      <section class="section_services" id="services">
+        <div class="container_cards" id="container_1">
+            <div class="card">
+              <svg class="svg-icon" viewBox="0 0 20 20">
+                <path fill="none" d="M17.125,1.375H2.875c-0.828,0-1.5,0.672-1.5,1.5v11.25c0,0.828,0.672,1.5,1.5,1.5H7.75v2.25H6.625c-0.207,0-0.375,0.168-0.375,0.375s0.168,0.375,0.375,0.375h6.75c0.207,0,0.375-0.168,0.375-0.375s-0.168-0.375-0.375-0.375H12.25v-2.25h4.875c0.828,0,1.5-0.672,1.5-1.5V2.875C18.625,2.047,17.953,1.375,17.125,1.375z M11.5,17.875h-3v-2.25h3V17.875zM17.875,14.125c0,0.414-0.336,0.75-0.75,0.75H2.875c-0.414,0-0.75-0.336-0.75-0.75v-1.5h15.75V14.125z M17.875,11.875H2.125v-9c0-0.414,0.336-0.75,0.75-0.75h14.25c0.414,0,0.75,0.336,0.75,0.75V11.875z M10,14.125c0.207,0,0.375-0.168,0.375-0.375S10.207,13.375,10,13.375s-0.375,0.168-0.375,0.375S9.793,14.125,10,14.125z"></path>
+              </svg>
+                <h1>Desenvolvimento web</h1>
+                <p> O desenvolvimento web inclui criação, codificação de sites com seus elementos e linguagens.</p>
+                <button>Saiba mais</button>
+            </div>
+            <div class="card">
+              <svg class="svg-icon" viewBox="0 0 20 20">
+                <path d="M10.219,1.688c-4.471,0-8.094,3.623-8.094,8.094s3.623,8.094,8.094,8.094s8.094-3.623,8.094-8.094S14.689,1.688,10.219,1.688 M10.219,17.022c-3.994,0-7.242-3.247-7.242-7.241c0-3.994,3.248-7.242,7.242-7.242c3.994,0,7.241,3.248,7.241,7.242C17.46,13.775,14.213,17.022,10.219,17.022 M15.099,7.03c-0.167-0.167-0.438-0.167-0.604,0.002L9.062,12.48l-2.269-2.277c-0.166-0.167-0.437-0.167-0.603,0c-0.166,0.166-0.168,0.437-0.002,0.603l2.573,2.578c0.079,0.08,0.188,0.125,0.3,0.125s0.222-0.045,0.303-0.125l5.736-5.751C15.268,7.466,15.265,7.196,15.099,7.03"></path>
+              </svg>
+              <h1>Sistemas empresariais</h1>
+              <p> Softwares que auxiliam no gerenciamento das principais tarefas de gestão do negócio</p>
+              <button>Saiba mais</button>
+            </div>
+        </div>
+
+        <div class="container_cards" id="container_2">
+          <div class="card">
+            <svg class="svg-icon" viewBox="0 0 20 20">
+							<path fill="none" d="M16.227,16.672c0,0.49-0.396,0.889-0.889,0.889H2.883c-0.491,0-0.889-0.398-0.889-0.889V5.107c0-0.491,0.398-0.89,0.889-0.89h7.562V3.328H2.883c-0.982,0-1.779,0.796-1.779,1.779v11.565c0,0.982,0.796,1.779,1.779,1.779h12.455c0.982,0,1.779-0.797,1.779-1.779V10h-0.891V16.672z M15.338,1.549c-1.965,0-3.559,1.593-3.559,3.558c0,1.966,1.594,3.558,3.559,3.558s3.559-1.592,3.559-3.558C18.896,3.142,17.303,1.549,15.338,1.549z M15.338,7.776c-1.475,0-2.668-1.195-2.668-2.669c0-1.474,1.193-2.669,2.668-2.669s2.668,1.195,2.668,2.669C18.006,6.581,16.812,7.776,15.338,7.776z"></path>
+						</svg>
+            <h1>UI/UX Design</h1>
+            <p> UI design é a criação de uma interface amigável; UX é a maneira como o usuário vive o uso do produto.</p>
+            <button>Saiba mais</button>
+          </div>
+          <div class="card">
+            <svg class="svg-icon" viewBox="0 0 20 20">
+							<path fill="none" d="M10,15.654c-0.417,0-0.754,0.338-0.754,0.754S9.583,17.162,10,17.162s0.754-0.338,0.754-0.754S10.417,15.654,10,15.654z M14.523,1.33H5.477c-0.833,0-1.508,0.675-1.508,1.508v14.324c0,0.833,0.675,1.508,1.508,1.508h9.047c0.833,0,1.508-0.675,1.508-1.508V2.838C16.031,2.005,15.356,1.33,14.523,1.33z M15.277,17.162c0,0.416-0.338,0.754-0.754,0.754H5.477c-0.417,0-0.754-0.338-0.754-0.754V2.838c0-0.417,0.337-0.754,0.754-0.754h9.047c0.416,0,0.754,0.337,0.754,0.754V17.162zM13.77,2.838H6.23c-0.417,0-0.754,0.337-0.754,0.754v10.555c0,0.416,0.337,0.754,0.754,0.754h7.539c0.416,0,0.754-0.338,0.754-0.754V3.592C14.523,3.175,14.186,2.838,13.77,2.838z M13.77,13.77c0,0.208-0.169,0.377-0.377,0.377H6.607c-0.208,0-0.377-0.169-0.377-0.377V3.969c0-0.208,0.169-0.377,0.377-0.377h6.785c0.208,0,0.377,0.169,0.377,0.377V13.77z"></path>
+						</svg>
+            <h1>Aplicativos celulares</h1>
+            <p> É um software desenvolvido para ser instalado em smartphones e iPads</p>
+            <button>Saiba mais</button>
+          </div>
+        </div>
+
+        <div class="container_cards_2">
+          <div class="card">
+            <h2>Outros serviços</h2>
+            <h1>Entre em contato para mais serviços</h1>
+            <p>Temos mais serviços como: Computação em Nuvem, Internet das Coias, Anpalise em tempo real, entre outros. </p>
+            <button>Saiba mais</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section_partners" id="partners">
+        <div class="image_partners">
+          <img src="./assets/img/partner.png" alt="">
+        </div>
+
+        <div class="content_partners">
+          <h1 class="title_partners">Feedback dos nossos parceiros</h1>
+          <div class="carrosel">
+            <div class="container_carrosel">
+              <div class="comentarios_carrosel" id="comentario_1">
+                <div class="icon">
+                  <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M14.023,12.154c1.514-1.192,2.488-3.038,2.488-5.114c0-3.597-2.914-6.512-6.512-6.512
+                    c-3.597,0-6.512,2.916-6.512,6.512c0,2.076,0.975,3.922,2.489,5.114c-2.714,1.385-4.625,4.117-4.836,7.318h1.186
+                    c0.229-2.998,2.177-5.512,4.86-6.566c0.853,0.41,1.804,0.646,2.813,0.646c1.01,0,1.961-0.236,2.812-0.646
+                    c2.684,1.055,4.633,3.568,4.859,6.566h1.188C18.648,16.271,16.736,13.539,14.023,12.154z M10,12.367
+                    c-2.943,0-5.328-2.385-5.328-5.327c0-2.943,2.385-5.328,5.328-5.328c2.943,0,5.328,2.385,5.328,5.328
+                    C15.328,9.982,12.943,12.367,10,12.367z"></path>
+                  </svg>
+                </div>
+                <p class="content_carrosel">Gostaria de expressar meus pensamentos e percepções 
+                  sobre a experiência que tive com a empresa Ghostfy nos últimos meses. Estava a procura
+                  de uma empresa desenvolvedora que atendesse tanto o desenvolvimento web quanto para 
+                  aplicações mobile, não tive sucesso nas primeiras procuras, mas esta empresa se mostrou 
+                  dedicada em forcencer tudo o que estávamos procurando.</p>
+                <div class="nota_carrosel">
+                  <img src="./assets/img/estrelas.png">
+                  <h1>Jéssica Matias</h1>
+                  <h2>Coordenadora de marketing - Outback</h2>
+                </div>
+              </div>
+              <div class="comentarios_carrosel" id="comentario_2">
+                <div class="icon">
+                  <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M14.023,12.154c1.514-1.192,2.488-3.038,2.488-5.114c0-3.597-2.914-6.512-6.512-6.512
+                    c-3.597,0-6.512,2.916-6.512,6.512c0,2.076,0.975,3.922,2.489,5.114c-2.714,1.385-4.625,4.117-4.836,7.318h1.186
+                    c0.229-2.998,2.177-5.512,4.86-6.566c0.853,0.41,1.804,0.646,2.813,0.646c1.01,0,1.961-0.236,2.812-0.646
+                    c2.684,1.055,4.633,3.568,4.859,6.566h1.188C18.648,16.271,16.736,13.539,14.023,12.154z M10,12.367
+                    c-2.943,0-5.328-2.385-5.328-5.327c0-2.943,2.385-5.328,5.328-5.328c2.943,0,5.328,2.385,5.328,5.328
+                    C15.328,9.982,12.943,12.367,10,12.367z"></path>
+                  </svg>
+                </div>
+                <p class="content_carrosel">Gostaria de expressar minha satisfação com os serviços e produtos 
+                  fornecidos por sua empresa. Desde que começamos nossa parceria, tenho notado um compromisso 
+                  notável com a inovação e a qualidade. Os produtos da Ghostfy
+                  demonstram excelência em design e funcionalidade.  </p>
+                <div class="nota_carrosel">
+                  <img src="./assets/img/estrelas.png">
+                  <h1>Cesar Cavalcante</h1>
+                  <h2>People Maneger - Audi</h2>
+                </div>
+              </div>
+              <div class="comentarios_carrosel" id="comentario_3">
+                <div class="icon">
+                  <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M14.023,12.154c1.514-1.192,2.488-3.038,2.488-5.114c0-3.597-2.914-6.512-6.512-6.512
+                    c-3.597,0-6.512,2.916-6.512,6.512c0,2.076,0.975,3.922,2.489,5.114c-2.714,1.385-4.625,4.117-4.836,7.318h1.186
+                    c0.229-2.998,2.177-5.512,4.86-6.566c0.853,0.41,1.804,0.646,2.813,0.646c1.01,0,1.961-0.236,2.812-0.646
+                    c2.684,1.055,4.633,3.568,4.859,6.566h1.188C18.648,16.271,16.736,13.539,14.023,12.154z M10,12.367
+                    c-2.943,0-5.328-2.385-5.328-5.327c0-2.943,2.385-5.328,5.328-5.328c2.943,0,5.328,2.385,5.328,5.328
+                    C15.328,9.982,12.943,12.367,10,12.367z"></path>
+                  </svg>
+                </div>
+                <p class="content_carrosel">Passando para agradecer pelo excelente trabalho em nosso projeto recente. 
+                  Sua expertise tecnológica foi fundamental para o sucesso do projeto, com soluções 
+                  personalizadas entregues no prazo. Conseguindo suprir nossas necessidades e sugerindo 
+                  melhorias dentro do projeto que caíram perfertamente dentro da nossa empresa.</p>
+                <div class="nota_carrosel">
+                  <img src="./assets/img/estrelas.png">
+                  <h1>Glória Pires</h1>
+                  <h2>Gestora de tráfego - Nike</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section_members" id="members">
+        <h1>MEMBROS DO TIME</h1>
+        <h2>Conheça Nossa Equipe</h2>
+        <p>Nossa equipe atual é compposta por 6 membros principais, cada um, com sua especialidade.</p>
+        <div class="container_members">
+          <div class="images_members">
+            <img src="./assets/img/adriel.png">
+            <p class="nome_members"> Adriel Massagli</p>
+            <p class="function_members"> Analista / Dev FrontEnd</p>
+          </div>
+          <div class="images_members">
+            <img src="./assets/img/beatriz.png">
+            <p class="nome_members"> Beatriz Chagas</p>
+            <p class="function_members">Dev BackEnd / Infra</p>
+          </div>
+          <div class="images_members">
+            <img src="./assets/img/elis.png">
+            <p class="nome_members">Elis Torres</p>
+            <p class="function_members">Analista / Infra</p>
+          </div>
+          <div class="images_members">
+            <img src="./assets/img/felipe.png">
+            <p class="nome_members">Felipe Sousa</p>
+            <p class="function_members">Dev BackEnd / Dba</p>
+          </div>
+          <div class="images_members">
+            <img src="./assets/img/mateus.png">
+            <p class="nome_members">Mateus Coripio</p>
+            <p class="function_members">Dev BackEnd / Dba</p>
+          </div>
+          <div class="images_members">
+            <img src="./assets/img/yasmim.png">
+            <p class="nome_members">Yasmim Borges</p>
+            <p class="function_members"> Dev FrontEnd / Designer</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section_tech" id="tech">
+        <div class="technology_first_div">
+          <h1>tecnologias</h1> 
+          <h2>Nossas Tecnologias</h2>
+          <form>
+            <input type="radio" name="input_tech" class="input_radio" id="input_nuvem" checked onclick="technology()"/>
+            <input type="radio" name="input_tech" class="input_radio" id="input_iot" onclick="technology()"/>
+            <input type="radio" name="input_tech" class="input_radio" id="input_app" onclick="technology()"/>
+            <input type="radio" name="input_tech" class="input_radio" id="input_analise" onclick="technology()"/>
+          </form>
+          <button>Entre em contato</button>
+        </div>
+        <div class="technology_content">
+          <p class="content_info">Visando a melhor experiência do usuário, montamos uma gama de Tecnologias
+            novas no mercado, capazes de suprir necessidades específicas de cada projto, dentro delas temos: 
+          </p>
+          <form class="form_cards">
+              <label for="input_nuvem" class="card_technology" id="card_nuvem">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M16.889,8.82c0.002-0.038,0.006-0.075,0.006-0.112c0-1.427-1.158-2.585-2.586-2.585c-0.65,0-1.244,0.243-1.699,0.641c-0.92-1.421-2.513-2.364-4.333-2.364c-2.595,0-4.738,1.914-5.108,4.406c-1.518,0.361-2.648,1.722-2.648,3.35c0,1.904,1.543,3.447,3.447,3.447h12.065c1.904,0,3.447-1.543,3.447-3.447C19.48,10.547,18.377,9.201,16.889,8.82 M16.033,14.74H3.968c-1.426,0-2.585-1.16-2.585-2.586c0-1.2,0.816-2.233,1.985-2.512C3.71,9.561,3.969,9.279,4.021,8.931C4.333,6.838,6.162,5.26,8.277,5.26c1.461,0,2.811,0.736,3.61,1.971c0.135,0.21,0.355,0.351,0.604,0.385c0.039,0.006,0.08,0.008,0.119,0.008c0.207,0,0.408-0.074,0.566-0.212c0.316-0.275,0.719-0.428,1.133-0.428c0.951,0,1.725,0.773,1.723,1.733L16.027,8.78c-0.018,0.408,0.252,0.772,0.646,0.874c1.146,0.293,1.945,1.321,1.945,2.5C18.619,13.58,17.459,14.74,16.033,14.74"></path>
+                </svg>
+                <h1>Nuvem</h1>
+                <p>Computação em nuvem é usar recursos de computação e armazenamento via internet, em vez de em servidores locais.</p>
+              </label>
+              <label for="input_iot" class="card_technology" id="card_iot">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M16.803,18.615h-4.535c-1,0-1.814-0.812-1.814-1.812v-4.535c0-1.002,0.814-1.814,1.814-1.814h4.535c1.001,0,1.813,0.812,1.813,1.814v4.535C18.616,17.803,17.804,18.615,16.803,18.615zM17.71,12.268c0-0.502-0.405-0.906-0.907-0.906h-4.535c-0.501,0-0.906,0.404-0.906,0.906v4.535c0,0.502,0.405,0.906,0.906,0.906h4.535c0.502,0,0.907-0.404,0.907-0.906V12.268z M16.803,9.546h-4.535c-1,0-1.814-0.812-1.814-1.814V3.198c0-1.002,0.814-1.814,1.814-1.814h4.535c1.001,0,1.813,0.812,1.813,1.814v4.534C18.616,8.734,17.804,9.546,16.803,9.546zM17.71,3.198c0-0.501-0.405-0.907-0.907-0.907h-4.535c-0.501,0-0.906,0.406-0.906,0.907v4.534c0,0.501,0.405,0.908,0.906,0.908h4.535c0.502,0,0.907-0.406,0.907-0.908V3.198z M7.733,18.615H3.198c-1.002,0-1.814-0.812-1.814-1.812v-4.535c0-1.002,0.812-1.814,1.814-1.814h4.535c1.002,0,1.814,0.812,1.814,1.814v4.535C9.547,17.803,8.735,18.615,7.733,18.615zM8.64,12.268c0-0.502-0.406-0.906-0.907-0.906H3.198c-0.501,0-0.907,0.404-0.907,0.906v4.535c0,0.502,0.406,0.906,0.907,0.906h4.535c0.501,0,0.907-0.404,0.907-0.906V12.268z M7.733,9.546H3.198c-1.002,0-1.814-0.812-1.814-1.814V3.198c0-1.002,0.812-1.814,1.814-1.814h4.535c1.002,0,1.814,0.812,1.814,1.814v4.534C9.547,8.734,8.735,9.546,7.733,9.546z M8.64,3.198c0-0.501-0.406-0.907-0.907-0.907H3.198c-0.501,0-0.907,0.406-0.907,0.907v4.534c0,0.501,0.406,0.908,0.907,0.908h4.535c0.501,0,0.907-0.406,0.907-0.908V3.198z"></path>
+                </svg>
+                <h1>Internet das Coisas</h1>
+                <p>
+                  IoT é conectar objetos à internet para coletar dados, automatizar ações e melhorar a eficiência.</p>
+              </label>
+              <label for="input_app" class="card_technology" id="card_app">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path fill="none" d="M10,15.654c-0.417,0-0.754,0.338-0.754,0.754S9.583,17.162,10,17.162s0.754-0.338,0.754-0.754S10.417,15.654,10,15.654z M14.523,1.33H5.477c-0.833,0-1.508,0.675-1.508,1.508v14.324c0,0.833,0.675,1.508,1.508,1.508h9.047c0.833,0,1.508-0.675,1.508-1.508V2.838C16.031,2.005,15.356,1.33,14.523,1.33z M15.277,17.162c0,0.416-0.338,0.754-0.754,0.754H5.477c-0.417,0-0.754-0.338-0.754-0.754V2.838c0-0.417,0.337-0.754,0.754-0.754h9.047c0.416,0,0.754,0.337,0.754,0.754V17.162zM13.77,2.838H6.23c-0.417,0-0.754,0.337-0.754,0.754v10.555c0,0.416,0.337,0.754,0.754,0.754h7.539c0.416,0,0.754-0.338,0.754-0.754V3.592C14.523,3.175,14.186,2.838,13.77,2.838z M13.77,13.77c0,0.208-0.169,0.377-0.377,0.377H6.607c-0.208,0-0.377-0.169-0.377-0.377V3.969c0-0.208,0.169-0.377,0.377-0.377h6.785c0.208,0,0.377,0.169,0.377,0.377V13.77z"></path>
+                </svg>
+                <h1>Aplicativos Móveis</h1>
+                <p>Aplicativos móveis são programas para smartphones e tablets que oferecem uma variedade de funcionalidades.</p>
+              </label>
+              <label for="input_analise" class="card_technology" id="card_analise">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                  <path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path>
+                </svg>
+                <h1>Análise me tempo real</h1>
+                <p>Análise em tempo real é a interpretação imediata de dados para tomar decisões instantâneas.</p>
+              </label>
+            </form>
+        </div>
+      </section>
+
+      <section class="section_tellus" id="tellus">
+          <div class="content_tellus">
+            <img src="./assets/img/logo_ghost_2.png" alt="Logo Ghostfy" srcset="">
+            <h1>ENTRE EM CONTATO</h1>
+            <p class="endereco_ghost">R. Guaipá, 678 - Vila Leopoldina, São Paulo - SP, 05089-000</p>
+            <p class="email_ghost">ghostfyltda2@gmail.com</p>
+            <p class="number_ghost">+55 (11) 3831-6034</p>
+            <div class="social_midias">
+              <a href="https://www.instagram.com/ghostfy.company/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+              <a href="https://www.instagram.com/ghostfy.company/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+              <a href="https://www.instagram.com/ghostfy.company/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></a>
+            </div>
+          </div>      
+          <div class="maps_tellus">
+            <form action="" class="form_tellus">
+              <h1>Fale conosco em <span style=" color:#49A68C ">2 minutos</span> </h1>
+              <label for="">Nome</label>
+              <input type="text" name="" id="" class="input_tellus" placeholder="Nome">
+              <label for="">Email</label>
+              <input type="text" name="" id="" class="input_tellus" placeholder="Exemplo@gmail.com">
+              <label for="">Whatsapp</label>
+              <input type="text" name="" id="" class="input_tellus" placeholder="(11) 91234-5678">
+              <label for="">Deixe sua mensagem</label>
+              <input type="text" name="" id="" class="input_tellus" placeholder="Mensagem">
+              <button>Enviar</button>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.324909720447!2d-46.73036142384008!3d-23.520813660105418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1694139940569!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img src="./assets/img/logo_ghost_2.png" alt="Logo Ghostfy" srcset="">
+      <h1 class="titulo_footer">A Tecnologia mais protegida do mercado</h1>
+      <nav class="menu_footer">
+        <a href="">Sobre</a>
+        <a href="">Serviços</a>
+        <a href="">Parceiros</a>
+        <a href="">Equipe</a>
+        <a href="">Contato</a>
+      </nav>
+      <div class="social_midias">
+        <a  href="https://www.instagram.com/ghostfy.company/"><svg class="svg_footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+        <a href="https://www.instagram.com/ghostfy.company/"><svg class="svg_footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+        <a href="https://www.instagram.com/ghostfy.company/"><svg class="svg_footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></a>
+      </div>
+      <hr>
+      <p>@Copyright Ghostfy</p>
+    </footer>
+
+    <script src="./assets/scripts/scripts.js"></script>
+  </body>
+</html>
